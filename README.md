@@ -1,28 +1,68 @@
-雷電 v0.1
--LINE webhook
--Echo
+# Raiden - LINE Bot System
 
-雷電 v0.2
--Router 架構
+Raiden is a personal backend project built with Python, designed as a modular LINE Bot system.
 
-雷電 v0.3
--Joke service
--2026/03/07 Update
+This project focuses on:
+- Data processing
+- Modular system design
+- API integration
+- Backend service development
 
-雷電 v0.4
--Weather service
-進行中
+## Features
 
-雷電 v0.5 feat: 完成雷電天氣系統 v1（router + weather service 整合）
--拆分 app / router / weather_city 模組
--完成天氣指令解析（天氣 + 縣市）
--整合 JSON 天氣資料查詢
--實作格式化輸出
--支援 LINE Bot 回應天氣資訊
--2026/4/14 Update
+- Weather Service
+  - Query weather by city
+  - Parse and format JSON weather data
 
-雷電 v0.6
--把笑話功能更新為 SQLite 資料庫
--新增了一些冷笑話
--更新 weather.json
--2026/4/20 Update
+- Joke Service
+  - SQLite-based joke database
+  - Random joke retrieval
+  - Category-based design (extensible)
+
+- Router System
+  - Handles text and postback events
+  - Routes user input to different services
+
+## Tech Stack
+
+- Python
+- Flask
+- SQLite
+- JSON Data Processing
+- LINE Messaging API
+
+## Architecture
+
+app.py → router → service layer → data layer
+
+- app.py: handles LINE webhook
+- router: routes user input
+- services: business logic (weather, joke)
+- data: JSON / SQLite
+
+## Version History
+
+- v0.1: LINE webhook + echo
+- v0.2: router architecture
+- v0.3: joke service (JSON)
+- v0.4: weather service
+- v0.5: weather system v1 completed
+- v0.6: joke service migrated to SQLite
+
+## Notes
+
+Some parts of the original LINE Bot setup are based on course materials and are not included in this repository.
+
+This repository focuses on:
+- Custom-developed services
+- Data processing logic
+- System architecture
+
+All included code is fully understood and can be explained in detail.
+
+## Future Work
+
+- Category-based joke routing
+- Full Taiwan weather aggregation
+- Database expansion
+- Advanced error handling
