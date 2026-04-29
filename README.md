@@ -1,6 +1,6 @@
 # Raiden - LINE Bot System
 
-Raiden is a personal backend project built with Python, designed as a modular LINE Bot system.
+Raiden is a personal software development platform built as a LINE Bot, designed to integrate multiple backend services such as weather queries, SQLite-based joke retrieval, and future draw-based features.
 
 This project focuses on:
 - Data processing
