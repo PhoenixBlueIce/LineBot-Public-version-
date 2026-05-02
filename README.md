@@ -51,7 +51,8 @@ app.py → router → service layer → data layer
 
 ## Notes
 
-Some parts of the original LINE Bot setup are based on course materials and are not included in this repository.
+The deployment setup was provided as a base template. 
+I focused on developing the backend services, data flow, and feature implementation.
 
 This repository focuses on:
 - Custom-developed services
