@@ -52,7 +52,7 @@ app.py → router → service layer → data layer
 ## Notes
 
 The deployment setup was provided as a base template. 
-I focused on developing the backend services, data flow, and feature implementation.
+This bot demonstrates backend logic including weather queries, joke retrieval, and modular service design.
 
 This repository focuses on:
 - Custom-developed services
